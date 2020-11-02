@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <GridView android:layout_height="match_parent" android:layout_width="match_parent" android:numColumns="4" android:gravity="center" android:id="@+id/widget_grid_view"/>
+
+
+    -<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/empty_view" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center_horizontal" android:textStyle="bold" android:textSize="20sp" android:textColor="#ffffff" android:text="@string/empty_view_text" android:textAlignment="center" android:layout_centerInParent="true"/>
+
+    <ImageView android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/grass" android:alpha="0.2"/>
+
+</RelativeLayout>
+
+</FrameLayout>
